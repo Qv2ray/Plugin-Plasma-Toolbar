@@ -1,0 +1,25 @@
+[Desktop Entry]
+Name=Qv2ray Toolbar
+Name[zh_CN]=Qv2ray 状态栏
+Comment=Display Qv2ray's current status
+Comment[zh_CN]=显示 Qv2ray 的当前状态
+
+
+Icon=Qv2ray
+Type=Service
+X-KDE-ServiceTypes=Plasma/Applet
+X-KDE-Library=qv2ray_plasmatoolbar_libs
+
+X-KDE-PluginInfo-Author=Qv2ray
+X-KDE-PluginInfo-Email=59914293+Qv2ray@users.noreply.github.com
+X-KDE-PluginInfo-Name=org.qv2ray.qv2ray_plasmatoolbar
+X-KDE-PluginInfo-Version=1.0
+X-KDE-PluginInfo-Website=https://github.com/Qv2ray/Plugin-Plasma-Toolbar
+X-KDE-PluginInfo-Category=Utilities
+X-KDE-PluginInfo-Depends=
+X-KDE-PluginInfo-License=GPL
+X-KDE-PluginInfo-EnabledByDefault=true
+
+X-Plasma-API=declarativeappletscript
+X-Plasma-MainScript=ui/main.qml
+
